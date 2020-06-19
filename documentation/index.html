@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Technical Documentation</title>
+    <link rel="icon" href="https://i.ibb.co/f1bmQ2Z/58480979cef1014c0b5e4901.png" type="image/icon">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <nav id="navbar">
+        <header>
+          <h1>Java Documentation </h1>
+        </header>
+        <a class="nav-link" href="#What_is_Java_?">What is Java ?</a>
+        <a class="nav-link" href="#History_of_Java">History of Java</a>
+        <a class="nav-link" href="#Features_of_Java">Features of Java</a>
+        <a class="nav-link" href="#Hello_Java_Program">Hello Java Program</a>
+        <a class="nav-link" href="#Data_types">Data types</a>
+        <a class="nav-link" href="#Variables">Variables</a>
+        <a class="nav-link" href="#Comments">Comments</a>
+        <a class="nav-link" href="#Operators">Operators</a>
+        <a class="nav-link" href="#if_else_statement">if else statement</a>
+        <a class="nav-link" href="#Switch_statement">Switch statement</a>
+        <a class="nav-link" href="#while_loop">while loop</a>
+        <a class="nav-link" href="#For_loop">For loop</a>
+        <a class="nav-link" href="#Break_and_Continue">Break and Continue</a>
+        <a class="nav-link" href="#Reference">Reference</a>
+        </nav>
+        <main id="main-doc">
+          <section class="main-section" id="What_is_Java_?">
+            <header>
+              <h2>What is Java ?</h2>
+            </header>
+            <p>Java is a <strong>programming</strong> language and a <strong>platform</strong>. Java is a high level, robust, object-oriented and secure programming language.
+
+Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995. James Gosling is known as the father of Java. Before Java, its name was Oak.
+Since Oak was already a registered company, so James Gosling and his team changed the Oak name to Java.</p>
+<p><span>Platform: </span>Any hardware or software environment in which a program runs, is known as a platform. Since Java has a runtime environment (JRE) and API,
+   it is called a platform.</p>
+<h3>Java Example</h3>
+<p>Let's have a quick look at Java programming example. A detailed description of Hello Java example is available in next page.</p>
+   <code> class Simple{
+    public static void main(String args[]){
+     System.out.println("Hello Java");
+    }
+}</code>
+<h3>Application</h3>
+<p>According to Sun, 3 billion devices run Java. There are many devices where Java is currently used. Some of them are as follows:</p>
+<ul>
+  <li>Desktop Applications such as acrobat reader, media player, antivirus, etc.</li>
+  <li>Web Applications such as irctc.co.in, javatpoint.com, etc.</li>
+  <li>Enterprise Applications such as banking applications.</li>
+  <li>Mobile</li>
+  <li>Embedded System</li>
+</ul>
+          </section>
+          <hr>
+          <section class="main-section"  id="History_of_Java">
+            <header>
+              <h2>History of Java </h2>
+            </header>
+<p>The history of Java is very interesting. Java was originally designed for interactive television, but it was too advanced technology for
+  the digital cable television industry at the time. The history of Java starts with the Green Team. Java team members (also known as Green Team),
+   initiated this project to develop a language for digital devices such as set-top boxes, televisions, etc. However, it was suited for internet
+    programming. Later, Java technology was incorporated by Netscape.
+<br><br>
+The principles for creating Java programming were "Simple, Robust, Portable, Platform-independent, Secured, High Performance, Multithreaded,
+Architecture Neutral, Object-Oriented, Interpreted, and Dynamic". Java was developed by James Gosling, who is known as the father of Java, in 1995.
+ James Gosling and his team members started the project in the early '90s.
+<br><br>
+Currently, Java is used in internet programming, mobile devices, games, e-business solutions, etc. There are given significant points
+ that describe the history of Java.</p>
+ <h3>Java Version History</h3>
+ <p>Many java versions have been released till now. The current stable release of Java is Java SE 10.</p>
+ <ol>
+   <li>JDK Alpha and Beta (1995)</li>
+   <li>JDK 1.0 (23rd Jan 1996)</li>
+   <li>JDK 1.1 (19th Feb 1997)</li>
+   <li>J2SE 1.2 (8th Dec 1998)</li>
+   <li>J2SE 1.3 (8th May 2000)</li>
+   <li>J2SE 1.4 (6th Feb 2002)</li>
+   <li>J2SE 5.0 (30th Sep 2004)</li>
+   <li>Java SE 6 (11th Dec 2006)</li>
+   <li>Java SE 7 (28th July 2011)</li>
+   <li>Java SE 8 (18th Mar 2014)</li>
+   <li>Java SE 9 (21st Sep 2017)</li>
+   <li>Java SE 10 (20th Mar 2018)</li>
+ </ol>
+          </section>
+          <hr>
+          <section class="main-section"  id="Features_of_Java">
+            <header>
+              <h2>Features of Java </h2>
+            </header>
+          <p>The primary objective of Java programming language creation was to make it portable, simple and secure programming language. Apart from
+            this,there are also some excellent features which play an important role in the popularity of this language. The features of Java are also
+            known as java <em>buzzwords</em>.</p>
+            <br>
+            <p>    A list of most important features of Java language is given below :</p>
+            <ol>
+              <li>Java Features</li>
+              <li>Simple</li>
+              <li>Object-Oriented</li>
+              <li>Portable</li>
+              <li>Platform independent</li>
+              <li>Robust</li>
+              <li>Architecture neutral</li>
+              <li>Interpreted</li>
+              <li>High Performance</li>
+              <li>Multithreaded</li>
+              <li>Distributed</li>
+              <li>Dynamic</li>
+            </ol>
+          </section>
+          <hr>
+          <section class="main-section"  id="Hello_Java_Program">
+            <header>
+              <h2>Hello Java Program</h2>
+            </header>
+              <p>In this section, we will learn how to write the simple program of java. We can write a simple hello java program easily after
+                 installing the JDK.</p>
+<p>To create a simple java program, you need to create a class that contains the main method. Let's understand the requirement first.
+</p>
+<h3>The requirement for Java Hello World Program</h3>
+<ul>
+  <li>Install the JDK if you don't have installed it, download the JDK and install it.</li>
+  <li>Set path of the jdk/bin directory. http://www.javatpoint.com/how-to-set-path-in-java</li>
+  <li>Create the java program</li>
+  <li>Compile and run the java program</li>
+</ul>
+<h3>Creating Hello World Example</h3>
+<p>Lets create the example now:</p>
+<code>
+  class Simple{
+    public static void main(String args[]){
+     System.out.println("Hello Java");
+    }
+}
+</code>
+<p>save this file as Simple.java
+<br><br>
+<span>To compile:	</span>javac Simple.java <br>
+<span>To execute:</span>	java Simple</p>
+<span>Output :</span>
+<code>Hello Java</code>
+          </section>
+          <hr>
+          <section class="main-section" id="Data_types">
+            <header>
+              <h2>Data types</h2>
+            </header>
+            <p>Data types specify the different sizes and values that can be stored in the variable. There are two types of data types in Java:</p>
+  <p><span>Primitive Data types: </span>The primitive data types include boolean, char, byte, short, int, long, float and double.</p>
+  <p><span>Non-Primitive Data types: </span>The non-primitive data types include Classes, Interfaces, and Arrays.</p>
+<h3>Java Primitive Data types</h3>
+<p>There are 8 types of primitive data types:</p>
+<ul>
+<li> boolean data type</li>
+<li> byte data type</li>
+<li> char data type</li>
+<li> short data type</li>
+<li> int data type</li>
+<li> long data type</li>
+<li> float data type</li>
+<li> double data type</li>
+</ul>
+<h3>Java Non-Primitive Data types</h3>
+<ul>
+  <li>String</li>
+  <li>Arrays</li>
+  <li>etc.</li>
+</ul>
+          </section>
+          <hr>
+          <section class="main-section"  id="Variables">
+            <header>
+              <h2>Variables</h2>
+            </header>
+          <p>Variable is name of reserved area allocated in memory. In other words, it is a name of memory location.
+            It is a combination of "vary + able" that means its value can be changed.</p>
+            <code>int data=50;    <span>//Here data is a variable</span> </code>
+          <h3>Types of Variables</h3>
+          <p> There are three types of variables in Java:</p>
+          <ul>
+            <li>local variable</li>
+            <li>instance variable</li>
+            <li>static variable</li>
+          </ul>
+
+    <h4>1) Local Variable</h4>
+  <p>A variable declared inside the body of the method is called local variable. You can use this variable only within that method and the
+      other methods in the class aren't even aware that the variable exists. <br> A local variable cannot be defined with "static" keyword.</p>
+    <h4>2) Instance Variable</h4>
+    <p>A variable declared inside the class but outside the body of the method, is called instance variable. It is not declared as static.
+ <br>It is called instance variable because its value is instance specific and is not shared among instances.</p>
+    <h4>3) Static variable</h4>
+    <p>A variable which is declared as static is called static variable. It cannot be local. You can create a single copy of static variable and share among all the instances of the class.
+     Memory allocation for static variable happens only once when the class is loaded in the memory.</p>
+     <h3>Example to understand the types of variables in java</h3>
+     <code>class A{
+int data=50;                <span>//instance variable</span>
+static int m=100;           <span>//static variable</span>
+void method(){
+int n=90;                   <span>//local variable</span>
+}
+}                           <span>//end of class</span>  </code>
+        </section>
+          <hr>
+<section class="main-section comment" id="Comments">
+  <header>
+    <h2>Comments</h2>
+  </header>
+  <p>The Java comments are the statements that are not executed by the compiler and interpreter. The comments can be used to
+    provide information or explanation about the variable, method, class or any statement. It can also be used to hide program code.
+</p>
+<h3>Types of Comments :</h3>
+<p>There are three types of comments in Kava.</p>
+<ol>
+  <li><span>Single Line Comment: </span>The single line comment is used to comment only one line.</li>
+  <li><span>Multi Line Comment: </span>The multi line comment is used to comment multiple lines of code.</li>
+  <li><span>Documentation Comment: </span>The documentation comment is used to create documentation API.</li>
+</ol>
+<h3>Example </h3>
+<code>//This is single line comment
+
+  /*
+  This
+  is
+  multi line
+  comment
+  */
+
+
+  /**
+  This
+  is
+  documentation
+  comment
+  */  </code>
+</section>
+<hr>
+<section class="main-section"  id="Operators">
+  <header>
+    <h2>Operators</h2>
+  </header>
+  <p>Operator in Java is a symbol which is used to perform operations. For example: +, -, *, / etc.</p>
+  <p>There are many types of operators in Java which are given below:</p>
+  <ul>
+    <li>  Unary Operator,</li>
+    <li>Arithmetic Operator,</li>
+    <li>Shift Operator,</li>
+    <li>Relational Operator,</li>
+    <li>Bitwise Operator,</li>
+    <li>Logical Operator,</li>
+    <li>Ternary Operator and</li>
+    <li>Assignment Operator</li>
+  </ul>
+<p>The Order of precedence of Operators is same as written above.</p>
+<table>
+<tbody><tr><th>Operator Type</th><th>Category</th><th>Precedence</th></tr>
+<tr>
+	<td rowspan="2">Unary</td><td>postfix</td><td><code><em>expr</em>++ <em>expr</em>--</code></td>
+
+</tr>
+
+<tr>
+	<td>prefix</td><td headers="precedence"><code>++<em>expr</em> --<em>expr</em> +<em>expr</em> -<em>expr</em> ~ !</code></td>
+
+</tr>
+<tr>
+	<td rowspan="2">Arithmetic</td><td>multiplicative</td><td headers="precedence"><code>* / %</code></td>
+</tr>
+<tr>
+	<td>additive</td><td headers="precedence"><code>+ -</code></td>
+</tr>
+<tr>
+	<td>Shift</td><td>shift</td><td headers="precedence"><code>&lt;&lt; &gt;&gt; &gt;&gt;&gt;</code></td>
+
+</tr>
+<tr>
+	<td rowspan="2">Relational</td><td>comparison</td><td headers="precedence"><code>&lt; &gt; &lt;= &gt;= instanceof</code></td>
+</tr>
+<tr>
+	<td>equality</td><td headers="precedence"><code>== !=</code></td>
+</tr>
+
+<tr>
+
+	<td rowspan="3">Bitwise</td><td>bitwise AND</td><td headers="precedence"><code>&amp;</code></td>
+</tr>
+<tr>
+	<td>bitwise exclusive OR</td><td headers="precedence"><code>^</code></td>
+</tr>
+<tr>
+	<td>bitwise inclusive OR</td><td headers="precedence"><code>|</code></td>
+
+</tr>
+
+<tr>
+	<td rowspan="2">Logical</td><td>logical AND</td><td headers="precedence"><code>&amp;&amp;</code></td>
+</tr>
+<tr>
+	<td>logical OR</td><td headers="precedence"><code>||</code></td>
+</tr>
+<tr>
+	<td>Ternary</td><td>ternary</td><td headers="precedence"><code>? :</code></td>
+
+</tr>
+<tr>
+	<td>Assignment</td><td>assignment</td><td headers="precedence"><code>= += -= *= /= %= &amp;= ^= |= &lt;&lt;= &gt;&gt;= &gt;&gt;&gt;=</code></td>
+</tr>
+</tbody></table>
+</section>
+<hr>
+<section id="if_else_statement" class="main-section">
+<header>
+  <h2>if else statement</h2>
+</header>
+<p>The Java if statement is used to test the condition. It checks boolean condition: true or false. There are various types of if statement in Java.
+</p>
+<ol>
+  <li>if statement</li>
+  <li>if-else statement</li>
+  <li>if-else-if ladder</li>
+  <li>nested if statement</li>
+</ol>
+<h3>if statement</h3>
+<p>The Java if statement tests the condition. It executes the if block if condition is true.</p>
+<span>Syntax: </span>
+<code>if(condition){
+     <span>//code to be executed</span>
+}  </code>
+<h3>if-else statement</h3>
+<p>The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.</p>
+<span>Syntax: </span>
+<code>if(condition){
+     <span>//code if condition is true</span>
+}else{
+     <span>//code if condition is false</span>
+}  </code>
+<h3>if-else-if ladder</h3>
+<p>TThe if-else-if ladder statement executes one condition from multiple statements.</p>
+<span>Syntax: </span>
+<code>if(condition1){
+     <span>//code to be executed if condition1 is true</span>
+}else if(condition2){
+     <span>//code to be executed if condition2 is true</span>
+}
+else if(condition3){
+    <span>//code to be executed if condition3 is true</span>
+}
+...
+else{
+    <span>//code to be executed if all the conditions are false</span>
+}  </code>
+<h3>nested if statement</h3>
+<p>The nested if statement represents the if block within another if block. Here, the inner if block condition executes only when outer if block
+   condition is true.</p>
+<span>Syntax: </span>
+<code>if(condition){
+     <span>//code to be executed</span>
+          if(condition){
+             <span>//code to be executed</span>
+    }
+}  </code>
+</section>
+<hr>
+<section  id="Switch_statement" class="main-section">
+  <header>
+    <h2>Switch statement</h2>
+  </header>
+  <p>The Java switch statement executes one statement from multiple conditions. It is like if-else-if ladder statement. The switch statement works with byte, short, int, long, enum types, String and some wrapper types like Byte, Short, Int, and Long. Since Java 7, you can use strings in the switch statement.
+<br>
+In other words, the switch statement tests the equality of a variable against multiple values.</p>
+<h3>Points to remember</h3>
+<ul>
+  <li>There can be one or N number of case values for a switch expression.</li>
+  <li>The case value must be of switch expression type only. The case value must be literal or constant. It doesn't allow variables.</li>
+  <li>The case values must be unique. In case of duplicate value, it renders compile-time error.</li>
+  <li>The Java switch expression must be of byte, short, int, long (with its Wrapper type), enums and string.</li>
+  <li>Each case statement can have a break statement which is optional. When control reaches to the break statement, it jumps
+     the control after the switch expression. If a break statement is not found, it executes the next case.</li>
+<li>The case value can have a default label which is optional.</li>
+</ul>
+<span>Syntax: </span>
+<code>switch(expression){
+    case value1:
+          <span>//code to be executed;</span>
+                 break;  <span>//optional</span>
+   case value2:
+          <span>//code to be executed;</span>
+                 break;  <span>//optional</span>
+......
+
+  default:
+          <span>//code to be executed if all
+            cases are not matched;</span>
+}    </code>
+</section>
+<hr>
+<section id="while_loop" class="main-section">
+  <header>
+    <h2>while loop</h2>
+  </header>
+  <p>The Java while loop is used to iterate a part of the program several times. If the number of iteration is not fixed,
+     it is recommended to use while loop.
+</p>
+<span>Syntax: </span>
+<code>while(condition){
+<span>//code to be executed  </span>
+}  </code>
+<p>If you pass true in the while loop, it will be infinitive while loop.</p>
+<span>Syntax</span>
+<code>while(true){
+<span>//code to be executed </span>
+}  </code>
+</section>
+<hr>
+<section id="For_loop" class="main-section">
+  <header>
+    <h2>For loop</h2>
+  </header>
+  <p>The Java for loop is used to iterate a part of the program several times.
+     If the number of iteration is fixed, it is recommended to use for loop.
+     <br></p>
+     <p>There are three types of for loops in java.</p>
+<ul>
+  <li>Simple For loop</li>
+  <li>For-each or Enhanced For loop</li>
+  <li>Labeled For loop</li>
+</ul>
+<h3>Simple For loop</h3>
+<span>Syntax:</span>
+<code>for(initialization;condition;incr/decr){
+<span>//statement or code to be executed  </span>
+}  </code>
+<h3>For-Each loop</h3>
+<span>Syntax:</span>
+<code>for(Type var:array){
+<span>//statement or code to be executed  </span>
+}  </code>
+<h3>Java Labeled For Loop</h3>
+<span>Syntax:</span>
+<code>labelname:
+  for(initialization;condition;incr/decr){
+<span>//statement or code to be executed  </span>
+}  </code>
+</section>
+<hr>
+<section  id="Break_and_Continue" class="main-section">
+  <header>
+    <h2>Break and Continue</h2>
+  </header>
+  <h3>Break</h3>
+  <p>When a break statement is encountered inside a loop, the loop is immediately terminated and the program control resumes at the next
+    statement following the loop.
+<br>
+The Java break statement is used to break loop or switch statement. It breaks the current flow of the program at specified condition.
+In case of inner loop, it breaks only inner loop.
+<br>
+We can use Java break statement in all types of loops such as for loop, while loop and do-while loop.</p>
+<span>Syntax: </span>
+<code>jump-statement;
+break;</code>
+<br>
+<h3>Continue</h3>
+<p>The continue statement is used in loop control structure when you need to jump to the next iteration of the loop immediately.
+It can be used with for loop or while loop.
+<br>
+The Java continue statement is used to continue the loop. It continues the current flow of the program and skips the remaining code
+ at the specified condition. In case of an inner loop, it continues the inner loop only.
+<br>
+We can use Java continue statement in all types of loops such as for loop, while loop and do-while loop.</p>
+<span>Syntax: </span>
+<code>jump-statement;
+continue;</code>
+</section>
+<hr>
+<section  id="Reference" class="main-section">
+  <header>
+    <h2>Reference</h2>
+  </header>
+  <ul>
+  <li>All the documentation in this page is taken from <a href="https://www.javatpoint.com/java-tutorial" target="_blank">javatpoint</a> </li>
+  </ul>
+</section>
+</main>
+    </div>
+  </body>
+</html>
